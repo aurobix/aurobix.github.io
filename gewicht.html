@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <p>
+        <label>Pounds</label>
+        <input id="inputPounds" type="number" placeholder="Pounds"
+        oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+    </p>
+    <p>Grams: <span id="outputGrams"></span></p>
+    <p>Kilograms: <span id="outputKilograms"></span></p>
+    <p>Ounces: <span id="outputOunces"></span></p>
+    <script src="gewicht.js"></script>
+</body>
+</html>

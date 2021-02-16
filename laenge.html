@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <p>
+        <label>Feet</label>
+        <input id="inputFeet" type="number" placeholder="Feet"
+        oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
+    </p>
+
+    <p>Meters: <span id="outputMeters"></span></p>
+    <p>Inches: <span id="outputInches"></span></p>
+    <p>cm: <span id="outputcm"></span></p>
+    <p>Yards: <span id="outputYards"></span></p>
+    <p>Kilometers: <span id="outputKilometers"></span></p>
+    <p>Miles: <span id="outputMiles"></span></p>
+    
+    <script src="laenge.js"></script>
+</body>
+</html>

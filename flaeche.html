@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <p>
+        <label>km²</label>
+        <input id="inputkm2" type="number" placeholder="km2"
+        oninput="areaConverter(this.value)" onchange="areaConverter(this.value)">
+    </p>
+    
+    <p>HA: <span id="outputHa"></span></p>    
+    <p>M²: <span id="outputM2"></span></p>
+    
+    <script src="flaeche.js"></script>
+</body>
+</html>
